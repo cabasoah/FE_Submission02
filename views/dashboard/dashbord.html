@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freddy's Artisanal Halloween Candy Shop</title>
+    <!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../../styles/dashboard.css">
+</head>
+<body>
+   	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<span class="text brand_logo"><img src="../../images/Freddys_Logo.svg" width="50" alt="" srcset=""></span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="./dashbord.html">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="./orders.html">
+					<i class='bx bxs-shopping-bag-alt' ></i>
+					<span class="text"> Orders</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+  	<!-- CONTENT -->
+	<section id="content">
+    	<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			
+		</nav>
+		<!-- NAVBAR -->
+		<!-- MAIN -->
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Dashboard</h1>
+					<ul class="breadcrumb">
+						<li>
+							<a href="#">Dashboard</a>
+						</li>
+						<li><i class='bx bx-chevron-right' ></i></li>
+						<li>
+							<a class="active" href="#">Home</a>
+						</li>
+					</ul>
+				</div>
+			
+			</div>
+
+			<ul class="box-info">
+				<li>
+					<i class='bx bxs-calendar-check' ></i>
+					<span class="text">
+						<h3>Today</h3>
+						<p>$345 / 10 orders</p>
+					</span>
+				</li>
+				<li>
+          <i class='bx bxs-calendar-check' ></i>
+					<span class="text">
+						<h3>Last Week</h3>
+						<p>34k / 230 orders</p>
+					</span>
+				</li>
+				<li>
+          <i class='bx bxs-calendar-check' ></i>
+					<span class="text">
+						<h3>Last Month</h3>
+						<p>$95k / 3456 orders</p>
+					</span>
+				</li>
+			</ul>
+
+
+      <!-- Revenue Chart -->
+			<div class="table-data">
+				<div class="order">
+					<div class="head">
+						<h3>Revenue (Last 7 days)</h3>
+            <input type="checkbox" id="switch-mode" hidden>
+            <label for="switch-mode" class="switch-mode"></label>
+					</div>
+				<!-- content here -->
+				</div>
+				<div class="todo">
+				
+				</div>
+			</div>
+
+      <!-- Best selling Chart -->
+			<div class="table-data">
+				<div class="order">
+					<div class="head">
+						<h3>Best Sellers</h3>
+					
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>Product Name</th>
+								<th>Price</th>
+								<th># Unit Sold</th>
+								<th>Revenue</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+									Orange
+								</td>
+								<td>$12.00</td>
+								<td>1.2</td>
+                <td>435</td>
+							</tr>
+		
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- CONTENT -->
+
+  <!-- scripts -->
+  <script src="../../scripts/script.js"></script>
+  <script src="../../scripts/dashboard.js"></script>
+</body>
+</html>
