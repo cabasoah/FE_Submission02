@@ -68,21 +68,21 @@
 					<i class='bx bxs-calendar-check' ></i>
 					<span class="text">
 						<h3>Today</h3>
-						<p>$345 / 10 orders</p>
+						<p id="today_stats"></p>
 					</span>
 				</li>
 				<li>
           <i class='bx bxs-calendar-check' ></i>
 					<span class="text">
 						<h3>Last Week</h3>
-						<p>34k / 230 orders</p>
+						<p id="last_week_stats"></p>
 					</span>
 				</li>
 				<li>
           <i class='bx bxs-calendar-check' ></i>
 					<span class="text">
 						<h3>Last Month</h3>
-						<p>$95k / 3456 orders</p>
+						<p id="month_stats"></p>
 					</span>
 				</li>
 			</ul>
@@ -119,16 +119,8 @@
 								<th>Revenue</th>
 							</tr>
 						</thead>
-						<tbody>
-							<tr>
-								<td>
-									Orange
-								</td>
-								<td>$12.00</td>
-								<td>1.2</td>
-                <td>435</td>
-							</tr>
-		
+						<tbody id="b_sellers">
+						
 						</tbody>
 					</table>
 				</div>
@@ -139,6 +131,7 @@
 	<!-- CONTENT -->
 
   <!-- scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js" integrity="sha512-0qU9M9jfqPw6FKkPafM3gy2CBAvUWnYVOfNPDYKVuRTel1PrciTj+a9P3loJB+j0QmN2Y0JYQmkBBS8W+mbezg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="../../scripts/script.js"></script>
   <script src="../../scripts/dashboard.js"></script>
 </body>

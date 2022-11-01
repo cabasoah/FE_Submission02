@@ -11,6 +11,7 @@ submit_btn.addEventListener('click', (e) => {
             password:password,
         }).then((res)=> {
             if(res.status == 200){
+                
                 localStorage.setItem('access_token', res.data.access_token);
                 localStorage.setItem('refresh_token', res.data.fresh_token);
 
